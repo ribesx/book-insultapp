@@ -8,6 +8,8 @@
 <title>Insult Generator</title>
 </head>
 <body>
+This version uses a PostgreSQL db.
+<br>
 <%
 out.println(new InsultGenerator().generateInsult());
 %>

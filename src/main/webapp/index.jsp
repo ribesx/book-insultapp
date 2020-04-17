@@ -8,7 +8,7 @@
 <title>Insult Generator</title>
 </head>
 <body>
-This version uses a PostgreSQL db.
+Webhook test
 <br>
 <%
 out.println(new InsultGenerator().generateInsult());
